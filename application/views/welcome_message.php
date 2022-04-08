@@ -83,12 +83,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
-	<form action="<?php echo base_url(); ?>DevisController/listDevis" method="get">
-			<input type="submit" value="devis">
-	</form>
-	<form action="<?php echo base_url(); ?>ProformatController/lisProformat" method="get">
-			<input type="submit" value="proformat">
-	</form>
+	<h1>Vaccine q</h1>
 </div>
 </body>
 </html>

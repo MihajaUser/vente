@@ -10,16 +10,13 @@
 		"irc": "irc://irc.freenode.net/codeigniter",
 		"source": "https://github.com/bcit-ci/CodeIgniter"
 	},
-	"authors": [
-			{
-					"name": "MihajaUser",
-					"email": "randrianarisoalalatianaantonio@gmail.com"
-			}
-	],
-	"minimum-stability": "stable",
 	"require": {
-			"ehime/hello-world": "^1.0",
-			"lcobucci/jwt": "^4.1",
-			"kreait/firebase-php": "^6.2"
+		"php": ">=5.2.4"
+	},
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+	},
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*"
 	}
 }
